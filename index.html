@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="./index.css" />
+  <title>New Tab</title>
+</head>
+
+<body>
+  <div class="container">
+    <form method="POST" name="survey">
+      <div class="question">
+        How would you feel if you could no longer work for this company?
+      </div>
+      <div class="inputs-container">
+        <div class="input-wrap">
+          <input class="radio-btn positive" type="radio" id="radio-1" name="disappointed" value="very dissapointed" />
+          <label class="radio-label" for="radio-1"><span>Very disappointed</span></label>
+        </div>
+
+        <div class="input-wrap">
+          <input class="radio-btn neutral" type="radio" id="radio-2" name="disappointed"
+            value="somewhat dissapointed" />
+          <label class="radio-label" for="radio-2"><span>Somewhat disappointed</span></label>
+        </div>
+
+        <div class="input-wrap">
+          <input class="radio-btn negative" type="radio" id="radio-3" name="disappointed" value="not dissapointed" />
+          <label class="radio-label" for="radio-3"><span>Not disappointed</span></label>
+        </div>
+      </div>
+      <button id="submit-1" class="btn-submit">Submit</button>
+
+    </form>
+  </div>
+
+  <script src="/background_scripts/index.js"></script>
+</body>
+
+</html>
