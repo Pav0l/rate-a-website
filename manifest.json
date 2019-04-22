@@ -1,0 +1,14 @@
+{
+  "name": "Survey App",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Create survey on each new tab opened in browser",
+  "icons": {
+    "16": "assets/icons/completed-task_16.png",
+    "48": "assets/icons/completed-task_48.png",
+    "128": "assets/icons/completed-task_128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
