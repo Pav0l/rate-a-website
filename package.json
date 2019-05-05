@@ -1,0 +1,19 @@
+{
+  "name": "survey_addon_toolbar",
+  "version": "1.0.0",
+  "description": "Browser extension to take a survey",
+  "main": "/popup/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pav0l/survey-addon.git"
+  },
+  "author": "https://github.com/Pav0l",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pav0l/survey-addon/issues"
+  },
+  "homepage": "https://github.com/Pav0l/survey-addon#readme"
+}
