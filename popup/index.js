@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 // target submit button and add click event listener
 document.getElementById('submit-1').addEventListener('click', () => {
   // select all checked input field
