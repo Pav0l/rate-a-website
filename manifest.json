@@ -17,8 +17,5 @@
     "default_title": "Survey App",
     "default_popup": "/popup/index.html"
   },
-  "permissions": [
-    "tabs",
-    "activeTab"
-  ]
+  "permissions": ["tabs", "activeTab"]
 }
