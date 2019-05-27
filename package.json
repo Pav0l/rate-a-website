@@ -1,7 +1,7 @@
 {
-  "name": "survey_addon_toolbar",
+  "name": "rate-a-website-extension",
   "version": "1.0.0",
-  "description": "Browser extension to take a survey",
+  "description": "Browser extension to rate a website",
   "main": "/popup/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
