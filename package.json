@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pav0l/survey-addon.git"
+    "url": "git+https://github.com/Pav0l/rate-a-website.git"
   },
   "author": "https://github.com/Pav0l",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Pav0l/survey-addon/issues"
+    "url": "https://github.com/Pav0l/rate-a-website/issues"
   },
-  "homepage": "https://github.com/Pav0l/survey-addon#readme"
+  "homepage": "https://github.com/Pav0l/rate-a-website#readme"
 }
