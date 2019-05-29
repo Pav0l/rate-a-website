@@ -1,5 +1,5 @@
 {
-  "name": "Survey App",
+  "name": "rate-a-website",
   "version": "1.0",
   "manifest_version": 2,
   "description": "Rate a website",
@@ -14,7 +14,7 @@
       "48": "assets/icons/completed-task_48.png",
       "128": "assets/icons/completed-task_128.png"
     },
-    "default_title": "Survey App",
+    "default_title": "rate-a-website",
     "default_popup": "/popup/index.html"
   },
   "permissions": ["tabs", "activeTab"]
