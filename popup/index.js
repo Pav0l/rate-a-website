@@ -10,8 +10,7 @@ document.getElementById('submit-1').addEventListener('click', () => {
   // get the rating value from the checked input Node
   const result = { rating: checkedField.value };
 
-  // const domain = 'https://survey-toolbar-ext-backend.herokuapp.com/api/rating';
-  const domain = 'http://127.0.0.1:9000/api/rating';
+  const domain = 'https://survey-toolbar-ext-backend.herokuapp.com/api/rating';
 
   // select all open tabs and find the active one
   // eslint-disable-next-line no-undef
@@ -27,12 +26,8 @@ document.getElementById('submit-1').addEventListener('click', () => {
       headers: {
         'Content-Type': 'application/json',
         'Access-Control-Request-Method': ['POST', 'OPTIONS'],
-        'Access-Control-Allow-Headers': [
-          'Content-Type',
-          'Origin',
-          'User-Agent',
-        ],
-      },
+        'Access-Control-Allow-Headers': ['Content-Type', 'Origin', 'User-Agent']
+      }
     })
       .then(res => {
         if (res.ok) {
@@ -40,7 +35,7 @@ document.getElementById('submit-1').addEventListener('click', () => {
           checkedField.checked = false;
         }
       })
-      .catch(err => console.error(err));
-    // .finally(() => window.close());
+      .catch(err => console.error(err))
+      .finally(() => window.close());
   });
 });

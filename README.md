@@ -1,3 +1,3 @@
-# rate-a-website
+# rate-a-website Chrome extension
 
-Browser extension to rate a website
+Chrome extension to rate a website.
